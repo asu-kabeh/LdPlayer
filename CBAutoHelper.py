@@ -349,12 +349,4 @@ class LDPlayer:
             item = i.split(",")
             Info_Devices.append({"name":item[1],"index":item[0],"id":"-1"})
         return Info_Devices
-# import threading
-# def kk(index):
-#     l = LDPlayer()
-#     for i in range(10):
-#         l.Info('index', index)
-#         l.ChangeInfo()
-#         time.sleep(10)
 
-# threading.Thread(target=kk, args=("0",)).start()
